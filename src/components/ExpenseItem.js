@@ -1,6 +1,7 @@
 import React from 'react';
 // css 로딩
 import './ExpenseItem.css';
+import ExpenseDate from './ExpenseDate';
 
 const ExpenseItem = ({ title, price, date }) => {
   // console.log(props);
@@ -27,7 +28,7 @@ const ExpenseItem = ({ title, price, date }) => {
 
   return (
     <div className='expense-item'>
-      <div>{makeFormattedDate()}</div>
+      <ExpenseDate />
       <div className='expense-item__description'>
         <h2>{title}</h2>
         <div className='expense-item__price'>{formattedPrice}</div>
