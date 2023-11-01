@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Expenses from './components/Expenses';
+import Hello from './Hello';
 
 const App = () => {
   // 지출 항목 객체 배열
@@ -19,9 +20,12 @@ const App = () => {
     {
       title: '도미노피자',
       price: '35000',
-      date: new Date(2023, 3 - 1, 23),
+      date: new Date(2023, 7 - 1, 23),
     },
   ];
+
+  console.log('App 실행!');
+
   return (
     <>
       <Expenses items={expenses} />

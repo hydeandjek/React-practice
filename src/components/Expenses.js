@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpenseItem from './ExpenseItem';
+import './Expenses.css';
 
 const Expenses = ({ items: expenses }) => {
   return (
@@ -22,5 +23,4 @@ const Expenses = ({ items: expenses }) => {
     </div>
   );
 };
-
 export default Expenses;
