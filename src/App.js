@@ -9,24 +9,28 @@ const App = () => {
 
   const expenses = [
     {
+      id: 2,
       title: '바나나',
       price: '2000',
       date: new Date(2023, 3 - 1, 23),
     },
     {
+      id: 3,
       title: 'BBQ 치킨',
       price: '20000',
-      date: new Date(2023, 5 - 1, 23),
+      date: new Date(2022, 5 - 1, 23),
     },
     {
+      id: 4,
       title: '도미노피자',
       price: '35000',
       date: new Date(2023, 7 - 1, 23),
     },
     {
+      id: 5,
       title: '엽기떡볶기',
       price: '17000',
-      date: new Date(2023, 3 - 1, 18),
+      date: new Date(2021, 3 - 1, 18),
     },
   ];
 
